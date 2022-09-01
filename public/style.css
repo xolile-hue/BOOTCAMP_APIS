@@ -1,0 +1,18 @@
+h1,
+h3 {
+    text-align: center;
+}
+
+
+.sentenceholder {
+    border-color: brown;
+    width: 30em;
+    height: 5em ;
+
+}
+
+.billHolder {
+    border-color: blue;
+    width: 30em;
+    height: 1em;
+}
