@@ -35,10 +35,34 @@
         </div>
 
     </div>
-    <div x-data="BootcampWidget2">
+    <!-- <div x-data="BootcampWidget2">
         <h3>Total Phone Bill</h3>
 
-        <textarea class="billHolder" x-model="phoneBill"></textarea>
+        <div>
+            <table>
+                <tr>
+                    <td>Plan name</td>
+                    <td>Sms Price</td>
+                    <td>Call Price</td>
+                </tr>
+                <template x-for="price_plans in price_plan">
+                    <tr>
+                        <td x-text="price_plans.plan_name"></td>
+                        <td x-text="price_plans.sms_price"></td>
+                        <td x-text="price_plans.call_price"></td>
+                    </tr>
+                </template>
+
+            </table>  
+        </div>
+
+        <div>
+           ACTIONS : <textarea class="billHolder" x-model="phoneBill"></textarea>
+        </div>
+        <div>
+            PLAN NAME: <textarea class="billHolder" x-model="plan_name"></textarea>
+        </div>
+
         <div>
             <button @click="checkPhoneBill">Check Bill</button>
         </div>
@@ -46,9 +70,9 @@
             Total Bill : <span x-text="billAmount"></span>
         </div>
 
-    </div>
+    </div> -->
     <div x-data="BootcampWidget3">
-        <h3>Enough Airtime</h3>
+        <h3>Enough Airtime</h3> 
 
         <div>
             Phone Bill :<textarea class="billHolder" x-model="phoneBill" name="" id=""></textarea>

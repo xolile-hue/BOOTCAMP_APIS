@@ -14,4 +14,4 @@ export default function totalPhoneBill(phoneBill){
         }
       }
       return "R" + totalBill.toFixed(2) ;
-    }
+    };
